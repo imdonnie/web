@@ -7,8 +7,7 @@ div.top_bar{
     width: 80%;
     height: 10%;
     background-color: #aeb1c5;
-    border: 20px outset #394488;
-    /* border-color: #000000; */
+    border: 10px #888888;
 }
 
 div.main_content{

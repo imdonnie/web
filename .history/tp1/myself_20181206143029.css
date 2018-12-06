@@ -4,11 +4,9 @@ body{
 }
 
 div.top_bar{
-    width: 80%;
+    width: 100%;
     height: 10%;
     background-color: #aeb1c5;
-    border: 20px outset #394488;
-    /* border-color: #000000; */
 }
 
 div.main_content{
@@ -24,8 +22,6 @@ div.main_content_left{
     height: 100%;
     width: 40%;
     float: left;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 div.main_content_right{
@@ -33,6 +29,4 @@ div.main_content_right{
     height: 100%;
     width: 40%;
     float: left;
-    margin-left: auto;
-    margin-right: auto;
 }
