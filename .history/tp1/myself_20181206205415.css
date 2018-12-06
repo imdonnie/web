@@ -2,7 +2,6 @@ body{
     /* background-color:rgb(247, 247, 130) ; */
     height: 1080px;
     text-align: center;
-    background: -webkit-linear-gradient(white, grey);
 }
 
 /* 顶端部分样式 */
@@ -20,7 +19,7 @@ h1.top_bar_sentence{
     vertical-align: 60%;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 8px 8px 8px rgb(150, 150, 150);
+    text-shadow: 2px 2px 2px rgb(150, 150, 150);
     color:grey;
 }
 

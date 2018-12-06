@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(multer({dest:'/tmp'}).array('image'));
 
 app.get('/test', function(request, response){
-    response.sendFile(__dirname + '/myself.html');
+    response.snedFile(__dirname + 'myself.html');
 });
 
 app.post('/test', function(request, response){

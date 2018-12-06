@@ -2,7 +2,6 @@ body{
     /* background-color:rgb(247, 247, 130) ; */
     height: 1080px;
     text-align: center;
-    background: -webkit-linear-gradient(white, grey);
 }
 
 /* 顶端部分样式 */
@@ -18,47 +17,46 @@ div.top_bar{
 
 h1.top_bar_sentence{
     vertical-align: 60%;
-    text-align: left;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 8px 8px 8px rgb(150, 150, 150);
+    /* text-shadow: 2px 2px 2px rgb(52, 92, 92); */
     color:grey;
 }
 
 /* 主体部分样式 */
 .main_content{
     text-align: center;
-    background-color: rgb(150, 150, 150);
+    /* background-color: rgb(82, 102, 102); */
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
-    width: 1080px;
-    box-shadow: 15px 15px 15px grey;
+    width: 100%;
 }
 
 .main_content_left{
-    background-color:rgb(150, 150, 150);
+    background-color: #6c92da;
     height: 100%;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 15px 15px 15px grey;
+    /* box-shadow: 5px 5px 5px grey; */
 }
 
 .main_content_mid{
-    background-color: rgb(50, 50, 50);
+    background-color: #a0a8b8;
     height: 100%;
-    width: 95%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 15px 15px 15px grey;
+    /* box-shadow: 5px 5px 5px grey; */
 }
 
 .main_content_right{
-    background-color:rgb(150, 150, 150);
+    background-color: #313a66;
     height: 100%;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 15px 15px 15px grey;
+    /* box-shadow: 5px 5px 5px grey; */
 }
 

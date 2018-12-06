@@ -8,29 +8,25 @@
 
     <script>
     $(document).ready(function(){
-        // $("#test_button").click(function(){
-        //     var form_data = new FormData();
-        //     form_data.append('test', 123);
+        $("#test_button").click(function(){
+            var form_data = new FormData();
+            form_data.append('test', 123);
 
-        //     // $("#output_area").val('click');
-        //     $.ajax({
-        //         type: "POST",
-        //         url: "/test",
-        //         cache: false,
-        //         processData:false,
-        //         contentType:false,
-        //         data: form_data,
-        //         // dataType: "json",
-        //         success: function(response){
-        //             $("input[id=output_area]").val(response);
-        //         }
-        //     });
-        // });
-
+            // $("#output_area").val('click');
+            $.ajax({
+                type: "POST",
+                url: "/test",
+                cache: false,
+                processData:false,
+                contentType:false,
+                data: form_data,
+                // dataType: "json",
+                success: function(response){
+                    $("input[id=output_area]").val(response);
+                }
+            });
+        });
     });
-    function(){
-
-    }
     </script>
 
     <link rel="stylesheet" href="myself.css" type="text/css">
@@ -44,9 +40,10 @@
         <!-- <button id="test_button">test</button> -->
     </div>
 
-    <div class="main_content">
-        <div class="main_content">
-
-        </div>
+    <div>
+        <table class="main_content">
+            <td class="main_content_left"></td>
+            <td class="main_content_right"></td>
+        </table>
     </div>
 </body>
