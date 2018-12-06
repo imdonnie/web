@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+
+<head>
+    <title>Nice to meet you</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $("#test_button").click(function(){
+            $("#output_area").val('click');
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:8080/test",
+                data: {
+                    test:$("#input_area").val(),
+                    test2:222,
+                    test3:333
+                },
+                dataType: "json",
+                success: function(response){
+                    $("#output_area").val(response);
+                }
+            });
+        });
+    });
+    </script>
+
+    <link rel="stylesheet" href="myself.css" type="text/css">
+</head>
+
+<body>
+    <div class="top_bar">
+        <h1 class="top_bar_sentence">I am Donnie</h1>
+        <input type="text" id="input_area"><br>
+        <input type="text" id="output_area">
+        <button id="test_button">test</button>
+    </div>
+
+    <div class="main_content">
+        <div class="main_content_left"></div>
+        <div class="main_content_right"></div>
+    </div>
+</body>
